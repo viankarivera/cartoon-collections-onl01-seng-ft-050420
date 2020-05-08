@@ -20,7 +20,7 @@ def long_planeteer_calls(calls_long)
   end
 end
 
-def find_the_cheese(potentially_cheesy_items)
+def find_the_cheese(array)
   potentially_cheesy_items = ["cheddar", "gouda", "camembert"]
   if potentially_cheesy_items == 0
 
