@@ -10,8 +10,8 @@ def roll_call_dwarves(dwarfs)
     planeteer_calls = []
     veggies.collect do |calls|
       planeteer_calls << "#{calls.capitalize}!"
-    # code an argument here
-    # Your code here
+    end 
+    planeteer_calls 
   end
 
 def long_planeteer_calls# code an argument here
