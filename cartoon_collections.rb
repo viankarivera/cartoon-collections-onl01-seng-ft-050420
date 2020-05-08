@@ -7,7 +7,7 @@ def roll_call_dwarves(dwarfs)
   end
 
   def summon_captain_planet(veggies)
-    veggies[0] = veggies[0].upcase
+    veggies.split
     # code an argument here
     # Your code here
   end
