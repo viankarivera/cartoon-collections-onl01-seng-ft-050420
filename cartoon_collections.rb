@@ -25,5 +25,6 @@ def find_the_cheese(potentially_cheesy_items)
   #if potentially_cheesy_items == 0
   #potentially_cheesy_items.include? |cheese|
   potentially_cheesy_items.find do |maybe_cheese|
+    cheese_types
 end
 end
