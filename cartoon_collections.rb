@@ -21,7 +21,7 @@ def long_planeteer_calls(calls_long)
 end
 
 
-potentially_cheesy_items = %w[banana cheddar sock]
+#potentially_cheesy_items = %w[banana cheddar sock]
 def find_the_cheese(potentially_cheesy_items)
   cheese_types = ["cheddar", "gouda", "camembert"]
   potentially_cheesy_items.find do |maybe_cheese|
