@@ -22,7 +22,9 @@ end
 
 def find_the_cheese(potentially_cheesy_items)
   potentially_cheesy_items = ["cheddar", "gouda", "camembert"]
-  potentially_cheesy_items.find do |cheese_types|
+  if potentially_cheesy_items == 0
+
+  elsif potentially_cheesy_items.find do |cheese_types|
     cheese_types[1]
 end
 end
